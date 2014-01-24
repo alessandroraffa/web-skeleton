@@ -17,8 +17,8 @@
     <script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
-    <!--[if lte IE 8] -->
-      <div class="container">
+    <!--[if lte IE 8]>
+      <div class="container" style="margin-top:10px;margin-bottom:10px;">
         <div class="alert alert-warning">
           Stai usando un browser <strong>molto datato</strong>. Per migliorare la tua esperienza di
           navigazione del Web ti consigliamo di <a href="http://browsehappy.com/">aggiornare il tuo
@@ -33,7 +33,7 @@
           </div>
         </noscript>
       </div>
-    <!-- [endif]-->
+    <![endif]-->
     <div class="container">
       <h1>Title</h1>
     </div>
