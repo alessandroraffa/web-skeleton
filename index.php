@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Title</title>
+    <title>Web skeleton</title>
     <meta name="description" content="Web skeleton">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
@@ -35,7 +35,7 @@
       </div>
     <![endif]-->
     <div class="container">
-      <h1>Title</h1>
+      <h1>Web skeleton</h1>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
