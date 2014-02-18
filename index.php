@@ -38,6 +38,7 @@
       <h1>Web skeleton</h1>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<<<<<<< HEAD
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 <<<<<<< HEAD
     <script src="http://d3js.org/d3.v3.min.js"></script>
