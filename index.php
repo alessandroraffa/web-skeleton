@@ -43,6 +43,9 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 =======
+=======
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>');</script>
+>>>>>>> dev
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 >>>>>>> dev
     <script src="assets/js/plugins.js"></script>
