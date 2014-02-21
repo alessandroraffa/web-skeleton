@@ -5,15 +5,27 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
+    <!--[if lt IE 9]><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><![endif]-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Web skeleton</title>
     <meta name="description" content="Web skeleton">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="assets/css/structure.css">
     <link rel="stylesheet" href="assets/css/graphics.css">
     <link rel="stylesheet" href="assets/css/typography.css">
+    <script type="text/javascript">
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style');
+        msViewportStyle.appendChild(
+          document.createTextNode(
+            '@-ms-viewport{width:auto!important}'
+          )
+        );
+        document.querySelector('head').appendChild(msViewportStyle);
+      }
+    </script>
     <script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
@@ -39,6 +51,7 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 <<<<<<< HEAD
     <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -48,6 +61,10 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>');</script>
 >>>>>>> dev
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+>>>>>>> dev
+=======
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.10.1.min.js"><\/script>');</script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 >>>>>>> dev
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
